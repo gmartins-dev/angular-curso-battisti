@@ -1,0 +1,10 @@
+<div class="class">
+
+  <div *ngIf="canShow">Mostrando conteudo renderização condicional</div>
+  <div *ngIf="name === 'Guilherme'">If teste -> Sim, o nome é Guilherme</div>
+  <div *ngIf="name === 'Martins'; else surNameError">If -> sobrenome é Martins</div>
+  <ng-template #surNameError>
+    <div>Else test -> O Sobrenome não é Martins</div>
+  </ng-template>
+
+</div>

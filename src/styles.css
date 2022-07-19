@@ -9,8 +9,15 @@
 
 body{
   background-color: #181818;
+  padding-bottom: 500px;
 }
 
 a{
   color: aquamarine;
+}
+
+.class {
+  border-bottom: 1px solid red;
+  padding: 2em;
+  margin-bottom: 1em;
 }
